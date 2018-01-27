@@ -1,0 +1,24 @@
+.page {
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+@media (min-width: 961px) {
+	.aside {
+	  	width: 320px;
+	  	margin-right: 40px;
+	  	flex: 0 0 auto;
+	}
+	.content {
+		flex: auto;
+	}
+}
+
+@media (max-width: 960px) {
+	.page {
+		flex-direction: column;
+	}
+	.aside__menu {
+		display: none;
+	}
+}
