@@ -1,6 +1,5 @@
 .page {
 	display: flex;
-	flex-direction: row-reverse;
 }
 
 @media (min-width: 961px) {
@@ -11,6 +10,7 @@
 	}
 	.content {
 		flex: auto;
+		order: 1;
 	}
 }
 
